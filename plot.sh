@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J plot
-#SBATCH -o /outputs/plot_out.out
-#SBATCH -e /outputs/plot_out.err
+#SBATCH -o /n/home10/annama/julia_test/julia_testing/outputs/plot_out.out
+#SBATCH -e /n/home10/annama/julia_test/julia_testing/outputs/plot_out.err
 #SBATCH -p shared
 #SBATCH -N 1
 #SBATCH -c 1
