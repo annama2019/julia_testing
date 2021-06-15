@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -J fe
-#SBATCH -o /outputs/fe_out.out
-#SBATCH -e /outputs/fe_out.err
+#SBATCH -o /n/home10/annama/julia_test/julia_testing/outputs/fe_out.out
+#SBATCH -e /n/home10/annama/julia_test/julia_testing/outputs/fe_out.err
 #SBATCH -p shared
 #SBATCH -N 1
 #SBATCH -c 1
